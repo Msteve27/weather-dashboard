@@ -10,25 +10,29 @@
 </head>
 
 <body class="">
-  <header class="hero">
-    <h1>Weather Dashboard</h1>
+  <header class="bg-gradient-to-r from-white via-yellow-400 to-white h-12 flex justify-center items-center">
+    <h1 class="text-white font-bold text-2xl">Weather Dashboard</h1>
   </header>
 
-  <main class="">
+  <main class="m-3 flex-1 grid grid-cols-2">
     <div class="" id="search-container">
-      <div class="" id="search-content">
+      <div class="font-bold text-lg" id="search-content">
         <form id="search-form" class="">
-          <label class="grid grid-cols-1">Search for a City:</label>
-          <input name="" id="city" type="text" autofocus="true" placeholder="Chicago" class="border-black border-2 rounded w-64 mt-2" />
-          <button type="submit" id="searchBtn" class="grid grid-cols-1 bg-yellow-400 text-white p-1 rounded w-64 mt-2">Search</button>
+          <label class="">Search for a City:</label>
+          <input name="" id="city" type="text" placeholder="Chicago" class="block border-black border-2 rounded w-full mt-2" />
+          <button type="submit" id="searchBtn" class="bg-yellow-400 text-white p-1 rounded w-full mt-2">Search</button>
         </form>
       </div>
     </div>
-    <div id="current-weather" class="bg-yellow-400 text-white rounded w-auto mt-2 grid grid-cols-4 gap-4 m-8">
-      
 
+    <div id="current-weather" class="ml-3 bg-yellow-400 text-white p-1 rounded">  
+      
     </div>
+
   </main>
+
+  
+
   <script src="./homepage.js"></script>
 </body>
 
